@@ -1,0 +1,175 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://yourdomain.com/#organization",
+      "name": "EV Guide Vietnam",
+      "url": "https://yourdomain.com/",
+      "logo": "https://yourdomain.com/logo.png",
+      "description": "Cổng thông tin và nghiên cứu độc lập chuyên sâu về xe điện và phương tiện di chuyển thông minh tại Việt Nam.",
+      "foundingDate": "2024",
+      "knowsAbout": [
+        "Xe máy điện",
+        "Pin LFP",
+        "Hệ thống trạm sạc xe điện",
+        "Giao thông xanh Việt Nam"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yourdomain.com/#website",
+      "url": "https://yourdomain.com/",
+      "name": "EV Guide Vietnam",
+      "publisher": {
+        "@id": "https://yourdomain.com/#organization"
+      },
+      "inLanguage": "vi-VN"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://yourdomain.com/#article",
+      "isPartOf": {
+        "@id": "https://yourdomain.com/#website"
+      },
+      "headline": "Cẩm nang & Đánh giá Xe máy điện Thông minh tại Việt Nam (Cập nhật 2026)",
+      "description": "Báo cáo phân tích chuyên sâu về công nghệ pin LFP, chuẩn kháng nước IP67, so sánh Feliz S, Quantum S1, Voltguard và bài toán chi phí sạc vs xăng.",
+      "inLanguage": "vi-VN",
+      "datePublished": "2026-01-15T08:00:00+07:00",
+      "dateModified": "2026-09-23T09:30:00+07:00",
+      "author": {
+        "@type": "Person",
+        "name": "Trương Thảo Anh"
+      },
+      "publisher": {
+        "@id": "https://yourdomain.com/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Xe máy điện thông minh"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pin Lithium Iron Phosphate (LFP)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Chuẩn kháng bụi kháng nước IP67"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "VinFast Feliz S",
+      "brand": {
+        "@type": "Brand",
+        "name": "VinFast"
+      },
+      "category": "Xe máy điện thông minh",
+      "description": "Xe máy điện đô thị trang bị pin LFP 3.5 kWh, tốc độ 78 km/h, kháng nước IP67, kết nối ứng dụng VinFast E-Scooter.",
+      "offers": {
+        "@type": "Offer",
+        "price": "27000000",
+        "priceCurrency": "VND",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "reviewCount": "1280"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Dat Bike Quantum S1",
+      "brand": {
+        "@type": "Brand",
+        "name": "Dat Bike"
+      },
+      "category": "Xe máy điện thông minh hiệu năng cao",
+      "description": "Xe máy điện tầm xa nhất thị trường với cự ly 285 km/lần sạc, động cơ 7000W, sạc nhanh 1 giờ đi 100 km.",
+      "offers": {
+        "@type": "Offer",
+        "price": "50900000",
+        "priceCurrency": "VND",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "840"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Yadea Voltguard",
+      "brand": {
+        "@type": "Brand",
+        "name": "Yadea"
+      },
+      "category": "Xe máy điện đô thị",
+      "description": "Mẫu xe máy điện phong cách scooter thanh lịch với hệ thống phanh đĩa kép, kháng nước IPX7, tiết kiệm năng lượng tối ưu.",
+      "offers": {
+        "@type": "Offer",
+        "price": "25990000",
+        "priceCurrency": "VND",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "620"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://yourdomain.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Xe máy điện thông minh đi được bao nhiêu km thực tế sau mỗi lần sạc đầy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trong điều kiện đường sá đô thị thực tế tại Việt Nam (vận tốc trung bình 35-50 km/h, chở tải 70-120kg và dừng đèn đỏ thường xuyên), cự ly thực tế đạt khoảng 70% đến 85% so với con số công bố lý thuyết NEDC. Cụ thể: Dat Bike Quantum S1 đạt 200 - 230 km (công bố 285 km), VinFast Feliz S đạt 130 - 150 km (công bố 198 km), và Yadea Voltguard đạt 85 - 110 km tuỳ phiên bản ắc quy hoặc pin Lithium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pin xe máy điện khi đi qua vùng ngập nước sâu có bị chập cháy hoặc hỏng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Hầu hết các mẫu xe điện thông minh thế hệ 2026 đều trang bị khối pin và động cơ đạt chuẩn bảo vệ IP67 trở lên. Tiêu chuẩn này cho phép xe ngâm trong nước sâu 0.5 mét liên tục 30 phút mà hoàn toàn không bị rò rỉ điện, chập cháy hay đọng ẩm bên trong nhờ van cân bằng áp suất tự động và gioăng silicon chuyên dụng. Tuy nhiên, khuyến cáo người dùng nên vệ sinh sạch bùn đất và hong khô cổng sạc trước khi cắm sạc điện."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nên chọn hình thức thuê pin hay mua đứt pin khi mua xe máy điện?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quyết định phụ thuộc vào quãng đường di chuyển hàng tháng của bạn: Hãy chọn thuê pin nếu bạn di chuyển cường độ cao (>1.500 km/tháng như tài xế công nghệ, giao hàng) để tối ưu chi phí đầu tư ban đầu và chuyển toàn bộ rủi ro chai pin sang hãng sản xuất (được đổi pin mới miễn phí khi dung lượng dưới 70%). Ngược lại, hãy chọn mua đứt pin nếu bạn đi làm văn phòng hoặc di chuyển dưới 1.000 km/tháng vì pin LFP có tuổi thọ tới 2.000-2.500 chu kỳ (tương đương 8-10 năm), giúp bạn không phải chịu gánh nặng phí thuê cố định hàng tháng."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Xe máy điện thông minh có bắt buộc phải đăng ký biển số và cần bằng lái xe A1 không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Về biển số: Tất cả các loại xe máy điện lưu thông trên đường giao thông tại Việt Nam đều bắt buộc phải đăng ký bấm biển số theo quy định pháp luật. Về giấy phép lái xe: Các mẫu xe có công suất động cơ trên 4.000W hoặc vận tốc thiết kế tối đa vượt quá 50 km/h (như VinFast Feliz S, Dat Bike Quantum S1) bắt buộc người điều khiển phải có bằng lái hạng A1. Các dòng xe có công suất dưới 4.000W và vận tốc giới hạn dưới 50 km/h (như VinFast Evo200 Lite) không yêu cầu bằng lái, phù hợp cho học sinh cấp 3 từ đủ 16 tuổi trở lên."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tuổi thọ của pin LFP là bao lâu và sau bao nhiêu năm thì phải thay thế?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pin LFP (Lithium Iron Phosphate) có độ bền đạt từ 2.000 đến 2.500 chu kỳ nạp/xả đầy. Với tần suất di chuyển trung bình của người dân Việt Nam (30-40 km/ngày, sạc 2 ngày/lần), pin LFP có tuổi thọ thực tế từ 8 đến 10 năm trước khi dung lượng lưu trữ giảm xuống mức 70%. Đặc biệt, pin LFP có tính ổn định nhiệt hóa học rất cao, không bị hiện tượng thoát nhiệt tự bốc cháy như các dòng pin ternary NMC/NCA đời cũ."
+          }
+        }
+      ]
+    }
+  ]
+}

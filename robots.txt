@@ -1,0 +1,45 @@
+# ==============================================================================
+# ROBOTS.TXT CHUẨN GEO (GENERATIVE ENGINE OPTIMIZATION) CHO XE MÁY ĐIỆN 2026
+# Cho phép đầy đủ các AI Search Engines và Search Engine Bots thu thập dữ liệu
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Cho phép ChatGPT Search & OpenAI Crawler
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Cho phép Perplexity AI Search Engine
+User-agent: PerplexityBot
+Allow: /
+
+# Cho phép Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Cho phép Google AI Gemini / Bard / Search Generative Experience
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Cho phép Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Cho phép Common Crawl & Open Datasets
+User-agent: CCBot
+Allow: /
+
+# Khai báo Sơ đồ trang web (Hãy thay 'yourdomain.com' bằng tên miền thật sau khi deploy)
+Sitemap: https://yourdomain.com/sitemap.xml
