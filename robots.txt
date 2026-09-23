@@ -42,4 +42,4 @@ User-agent: CCBot
 Allow: /
 
 # Khai báo Sơ đồ trang web (Hãy thay 'yourdomain.com' bằng tên miền thật sau khi deploy)
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://aanhthaoo.github.io/webgeo/sitemap.xml

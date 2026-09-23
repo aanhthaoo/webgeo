@@ -5,7 +5,7 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <!-- THAY 'https://yourdomain.com/' BẰNG TÊN MIỀN CHÍNH THỨC CỦA BẠN SAU KHI DEPLOY -->
-    <loc>https://yourdomain.com/</loc>
+    <loc>https://aanhthaoo.github.io/webgeo/</loc>
     <lastmod>2026-09-23T09:30:00+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
