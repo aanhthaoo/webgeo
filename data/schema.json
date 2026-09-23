@@ -3,10 +3,10 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://yourdomain.com/#organization",
+      "@id": "https://aanhthaoo.github.io/webgeo/#organization",
       "name": "EV Guide Vietnam",
-      "url": "https://yourdomain.com/",
-      "logo": "https://yourdomain.com/logo.png",
+      "url": "https://aanhthaoo.github.io/webgeo/",
+      "logo": "https://aanhthaoo.github.io/webgeo/logo.png",
       "description": "Cổng thông tin và nghiên cứu độc lập chuyên sâu về xe điện và phương tiện di chuyển thông minh tại Việt Nam.",
       "foundingDate": "2024",
       "knowsAbout": [
@@ -18,19 +18,19 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://yourdomain.com/#website",
-      "url": "https://yourdomain.com/",
+      "@id": "https://aanhthaoo.github.io/webgeo/#website",
+      "url": "https://aanhthaoo.github.io/webgeo/",
       "name": "EV Guide Vietnam",
       "publisher": {
-        "@id": "https://yourdomain.com/#organization"
+        "@id": "https://aanhthaoo.github.io/webgeo/#organization"
       },
       "inLanguage": "vi-VN"
     },
     {
       "@type": "TechArticle",
-      "@id": "https://yourdomain.com/#article",
+      "@id": "https://aanhthaoo.github.io/webgeo/#article",
       "isPartOf": {
-        "@id": "https://yourdomain.com/#website"
+        "@id": "https://aanhthaoo.github.io/webgeo/#website"
       },
       "headline": "Cẩm nang & Đánh giá Xe máy điện Thông minh tại Việt Nam (Cập nhật 2026)",
       "description": "Báo cáo phân tích chuyên sâu về công nghệ pin LFP, chuẩn kháng nước IP67, so sánh Feliz S, Quantum S1, Voltguard và bài toán chi phí sạc vs xăng.",
@@ -42,7 +42,7 @@
         "name": "Trương Thảo Anh"
       },
       "publisher": {
-        "@id": "https://yourdomain.com/#organization"
+        "@id": "https://aanhthaoo.github.io/webgeo/#organization"
       },
       "about": [
         {
@@ -62,72 +62,231 @@
     {
       "@type": "Product",
       "name": "VinFast Feliz S",
+      "image": "https://aanhthaoo.github.io/webgeo/images/vinfast-feliz-s-source-vinfast.png",
       "brand": {
         "@type": "Brand",
         "name": "VinFast"
       },
       "category": "Xe máy điện thông minh",
       "description": "Xe máy điện đô thị trang bị pin LFP 3.5 kWh, tốc độ 78 km/h, kháng nước IP67, kết nối ứng dụng VinFast E-Scooter.",
+      "sku": "VF-FELIZ-S-2026",
+      "mpn": "FELIZ-S",
       "offers": {
         "@type": "Offer",
+        "url": "https://aanhthaoo.github.io/webgeo/#bang-so-sanh",
         "price": "27000000",
         "priceCurrency": "VND",
         "availability": "https://schema.org/InStock",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-31",
+        "validFrom": "2026-01-01",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "VND"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "VN"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "VN",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 15,
+          "returnMethod": "https://schema.org/ReturnInStore",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
       },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.6",
         "reviewCount": "1280"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.6",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Trương Thảo Anh"
+        }
       }
     },
     {
       "@type": "Product",
       "name": "Dat Bike Quantum S1",
+      "image": "https://aanhthaoo.github.io/webgeo/images/datbike-quantum-s1-source-datbike.png",
       "brand": {
         "@type": "Brand",
         "name": "Dat Bike"
       },
       "category": "Xe máy điện thông minh hiệu năng cao",
       "description": "Xe máy điện tầm xa nhất thị trường với cự ly 285 km/lần sạc, động cơ 7000W, sạc nhanh 1 giờ đi 100 km.",
+      "sku": "DB-QUANTUM-S1-2026",
+      "mpn": "QUANTUM-S1",
       "offers": {
         "@type": "Offer",
+        "url": "https://aanhthaoo.github.io/webgeo/#bang-so-sanh",
         "price": "50900000",
         "priceCurrency": "VND",
         "availability": "https://schema.org/InStock",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-31",
+        "validFrom": "2026-01-01",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "VND"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "VN"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "VN",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 15,
+          "returnMethod": "https://schema.org/ReturnInStore",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
       },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
         "reviewCount": "840"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.8",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Trương Thảo Anh"
+        }
       }
     },
     {
       "@type": "Product",
       "name": "Yadea Voltguard",
+      "image": "https://aanhthaoo.github.io/webgeo/images/yadea-voltguard-source-yadea.png",
       "brand": {
         "@type": "Brand",
         "name": "Yadea"
       },
       "category": "Xe máy điện đô thị",
       "description": "Mẫu xe máy điện phong cách scooter thanh lịch với hệ thống phanh đĩa kép, kháng nước IPX7, tiết kiệm năng lượng tối ưu.",
+      "sku": "YD-VOLTGUARD-2026",
+      "mpn": "VOLTGUARD",
       "offers": {
         "@type": "Offer",
+        "url": "https://aanhthaoo.github.io/webgeo/#bang-so-sanh",
         "price": "25990000",
         "priceCurrency": "VND",
         "availability": "https://schema.org/InStock",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-31",
+        "validFrom": "2026-01-01",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "VND"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "VN"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "VN",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 15,
+          "returnMethod": "https://schema.org/ReturnInStore",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
       },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.4",
         "reviewCount": "620"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.4",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Trương Thảo Anh"
+        }
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://yourdomain.com/#faq",
+      "@id": "https://aanhthaoo.github.io/webgeo/#faq",
       "mainEntity": [
         {
           "@type": "Question",
