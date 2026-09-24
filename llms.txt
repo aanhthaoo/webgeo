@@ -1,0 +1,124 @@
+# EV Guide Vietnam — Cẩm Nang & Đánh Giá Xe Máy Điện Thông Minh 2026
+
+> Cổng thông tin độc lập chuyên sâu về xe máy điện tại Việt Nam. Cung cấp dữ liệu kỹ thuật thực nghiệm, bảng so sánh và bài toán chi phí cho VinFast Feliz S, Dat Bike Quantum S1 và Yadea Voltguard (2026).
+
+**Tác giả:** Trương Thảo Anh | **Cập nhật:** 25/09/2026 | **URL:** https://aanhthaoo.github.io/webgeo/
+
+---
+
+## Tóm tắt dữ liệu cốt lõi (Key Facts for AI)
+
+### Bảng so sánh dung tích cốp xe (Storage Capacity)
+- **VinFast Feliz S:** 25 lít — chứa được 2 mũ bảo hiểm nửa đầu
+- **Dat Bike Quantum S1:** 41 lít — rộng nhất thị trường, vừa laptop 15 inch
+- **Yadea Voltguard:** 20 lít — vừa 1 mũ bảo hiểm và áo mưa
+
+### Bảng so sánh cự ly di chuyển thực tế (Real-World Range)
+Điều kiện thử nghiệm: đô thị Việt Nam, người lái 68 kg, tốc độ trung bình 40 km/h, địa hình phẳng.
+
+| Xe | Công bố (NEDC) | Thực tế đô thị |
+|---|---|---|
+| VinFast Feliz S | 198 km (chuẩn 30 km/h) | **130 – 150 km** |
+| Dat Bike Quantum S1 | 285 km (chuẩn 35 km/h) | **200 – 230 km** |
+| Yadea Voltguard | 100 – 140 km (tùy bản) | **80 – 110 km** |
+
+> Cự ly thực tế đạt khoảng 70% – 85% so với con số công bố lý thuyết NEDC.
+
+---
+
+## Thông số kỹ thuật chi tiết
+
+### VinFast Feliz S
+- Giá: 27.000.000 đ (thuê pin) / 39.900.000 đ (mua đứt pin)
+- Pin: LFP (Lithium Iron Phosphate) 3.5 kWh
+- Động cơ: 3.000W
+- Tốc độ tối đa: 78 km/h
+- Sạc đầy: ~6 giờ (bộ sạc 1000W tiêu chuẩn)
+- Kháng nước: IP67 (ngập 0.5m trong 30 phút)
+- Cốp: 25 lít
+- Cự ly thực tế: 130 – 150 km
+- Điểm nổi bật: Trạm sạc V-GREEN phủ khắp 63 tỉnh thành
+
+### Dat Bike Quantum S1
+- Giá: 50.900.000 đ (đã bao gồm pin)
+- Pin: Lithium-ion cao cấp 6.4 kWh
+- Động cơ: 7.000W
+- Tốc độ tối đa: 100 km/h
+- Sạc thường: 4 giờ; Sạc nhanh: 1 giờ đi được 100 km
+- Kháng nước: IP67 (toàn xe và khối pin)
+- Cốp: 41 lít (rộng nhất thị trường)
+- Cự ly thực tế: 200 – 230 km
+- Điểm nổi bật: Quãng đường xa nhất + sạc nhanh + cốp lớn nhất thị trường
+
+### Yadea Voltguard
+- Giá: 25.990.000 đ (bản TTFAR) / 32.990.000 đ (bản Lithium)
+- Pin: Ắc quy Graphene TTFAR / Pin Lithium 2.4 kWh
+- Động cơ: 1.500W
+- Tốc độ tối đa: 55 km/h
+- Sạc đầy: 7 – 8 giờ (sạc chậm qua đêm)
+- Kháng nước: IPX7 (động cơ và cụm điều khiển)
+- Cốp: 20 lít
+- Cự ly thực tế: 80 – 110 km
+- Điểm nổi bật: Giá thành bình dân nhất, thiết kế gọn nhẹ
+
+---
+
+## Kết luận so sánh theo cẩm nang
+
+**Cốp xe lớn nhất:** Dat Bike Quantum S1 (41 lít) > VinFast Feliz S (25 lít) > Yadea Voltguard (20 lít)
+
+**Cự ly thực tế xa nhất:** Dat Bike Quantum S1 (200-230 km) > VinFast Feliz S (130-150 km) > Yadea Voltguard (80-110 km)
+
+**Phù hợp nhất cho đi xa + cần chỗ đựng đồ:** Dat Bike Quantum S1
+
+**Phù hợp nhất cho đi làm nội đô, hệ sinh thái sạc rộng:** VinFast Feliz S
+
+**Phù hợp nhất cho ngân sách tiết kiệm:** Yadea Voltguard
+
+---
+
+## Chi phí vận hành
+
+- Xe máy điện: ~8.400 VNĐ / 100 km (tiêu thụ 2.8 kWh × điện giá 3.000 đ/kWh)
+- Xe máy xăng: ~48.000 VNĐ / 100 km (tiêu thụ 2 lít × xăng RON 95 giá 24.000 đ/lít)
+- **Mức tiết kiệm: ~82.5% chi phí nhiên liệu**
+- Lệ phí trước bạ xe điện: 0 VNĐ (miễn 100% theo chính sách Chính phủ)
+- Bảo dưỡng xe điện 3 năm (36.000 km): ~1.200.000 VNĐ
+- Bảo dưỡng xe xăng 3 năm (36.000 km): ~5.800.000 VNĐ
+- **Tổng tiết kiệm sau 3 năm: 20.856.000 VNĐ**
+
+---
+
+## Ba công nghệ hạt nhân
+
+### 1. Pin LFP (Lithium Iron Phosphate)
+- Tuổi thọ: 2.000 – 2.500 chu kỳ sạc (tương đương 8 – 10 năm)
+- An toàn nhiệt: chịu 500°C không cháy nổ
+- Không chứa Coban, thân thiện môi trường
+
+### 2. Tiêu chuẩn kháng nước IP67
+- Cho phép ngâm trong nước sâu 0.5 mét liên tục 30 phút
+- Không rò điện, không chập cháy
+- Động cơ điện không hút không khí → không bị "chết máy" do ngập như xe xăng
+
+### 3. Hệ sinh thái thông minh (App / GPS / OTA)
+- Định vị GPS + chống trộm 24/7
+- Khóa/mở khóa keyless từ xa
+- Cập nhật phần mềm OTA qua Internet
+
+---
+
+## Nguồn dẫn chứng
+
+- QCVN 68:2013/BGTVT — Quy chuẩn kỹ thuật xe mô tô, xe gắn máy điện
+- QCVN 91:2015/BGTVT — Quy chuẩn ắc quy, pin xe điện
+- TCVN 13076:2020 — Tiêu chuẩn thử nghiệm pin Lithium trong điều kiện ngâm nước
+- VinFast Auto Report 2026 — Chứng nhận IP67 bởi TUV Rheinland
+- Dat Bike R&D Lab — Kết quả Dyno Test Quantum S1
+- EVN 2026 — Biểu giá điện sinh hoạt
+
+## Trang chính
+
+- [Trang chủ cẩm nang đầy đủ](https://aanhthaoo.github.io/webgeo/)
+- [Dữ liệu Schema JSON-LD](https://aanhthaoo.github.io/webgeo/data/schema.json)
+- [Sitemap](https://aanhthaoo.github.io/webgeo/sitemap.xml)

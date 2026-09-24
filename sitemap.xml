@@ -17,4 +17,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- File llms.txt chuẩn GEO cho AI Agents -->
+  <url>
+    <loc>https://aanhthaoo.github.io/webgeo/llms.txt</loc>
+    <lastmod>2026-09-25T01:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>

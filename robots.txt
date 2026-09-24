@@ -52,3 +52,6 @@ User-agent: BingPreview
 Allow: /
 
 Sitemap: https://aanhthaoo.github.io/webgeo/sitemap.xml
+
+# File llms.txt chuẩn GEO cho AI Agents (ChatGPT, Perplexity, Claude, Gemini)
+LLMs-Txt: https://aanhthaoo.github.io/webgeo/llms.txt
