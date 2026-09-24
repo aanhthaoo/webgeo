@@ -51,5 +51,4 @@ Allow: /
 User-agent: BingPreview
 Allow: /
 
-# Khai báo Sơ đồ trang web (Hãy thay 'yourdomain.com' bằng tên miền thật sau khi deploy)
 Sitemap: https://aanhthaoo.github.io/webgeo/sitemap.xml
